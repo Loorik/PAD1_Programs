@@ -58,29 +58,17 @@ void Roulette::play()
 			{
 				p.setBudget(2 * p.getMoneyBet());
 			}
-			else
-			{
-				p.takeFromBudget(p.getMoneyBet());
-			}
 			break;
 		case 'u':
 			if ('u' == ri.isLow())
 			{
 				p.setBudget(2 * p.getMoneyBet());
 			}
-			else
-			{
-				p.takeFromBudget(p.getMoneyBet());
-			}
 			break;
 		case 'z':
 			if ('z' == ri.getValue())
 			{
 				p.setBudget(36 * p.getMoneyBet());
-			}
-			else
-			{
-				p.takeFromBudget(p.getMoneyBet());
 			}
 			break;
 		default:
